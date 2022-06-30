@@ -92,13 +92,13 @@
 												我们猜测，乘客是否幸存不一定和港口直接有关，而是因为从不同港口登船的乘客本身存在差异。
 												比如可能Chernourg登船的大部分是一等舱乘客，从Southampton登船的大部分是三等舱乘客，
 												这种不同船舱等级的差异可能是导致从不同港口登船的乘客的死亡率出现差异的原因。</p>
-											<img src="images/mp1.png" alt="" class="a" align="center" align="center">
+											<img src="images/mp1.png" alt="" class="a" align="center">
 
 											
 											<p>下面的图展示了船舱等级和存活的关系。左下角的图显示，一等舱存活率最高，三等舱存活率最低。
 												右上角的图三种颜色代表了三个等级的船舱，每个船舱的堆叠数字加和等于购买该等级船票的乘客数。
 												对于每个颜色的堆叠柱状图，从上至下依次是从Southampton、Chernourg、Queenstown出发的乘客数量。</p>
-											<span class="image featured"><img src="images/mp2.png"/></span>
+											<img src="images/mp2.png" class="a" align="center">
 
 											<p>由上图可见，一票等占比从高到低分别是Chernourg50.6%，Southampton19.72%，Queenstown2.67%。
 												从Southampton和Chernourg的对比来看，可能船舱等级越高，乘客存活率越大。
@@ -108,7 +108,7 @@
 											<p>我们绘制了三个港口的登船男女比率。此外，我们知道在Titanic的故事中，女士和小孩有优先逃生的特权。
 												我们想知道性别和年龄是否显著影响存活，因此我们还绘制了分类性别、分类年龄的直方图和分性别的累计
 												生存概率曲线。</p>
-											<span class="image featured"><img src="images/mp3.png" alt=""/></span>
+											<img src="images/mp3.png" alt="" class="a" align="center">
 											
 											<p>女性占比对不同港口的存活概率可能存在影响。Southampton的女性比率确实比Queenstown的女性比率要低，
 												而且前者的乘客存活率比后者要低。实际上，港口和乘客存活与否并不存在因果关系，
@@ -119,14 +119,14 @@
 											<p>下面我们分别对年龄、性别、家庭人数、船票等级等可能影响存活概率的因素使用可视化，
 												探究这些变量和乘客存活的关系。</p>
 											
-											<span class="image featured"><img src="images/mp4.png" alt="" /></span>
+											<img src="images/mp4.png" alt="" class="a" align="center">
 											<p>上图的child和adult是我们根据引入的新变量。Child定义为18岁以下的人。
 												红色死亡，绿色生存。可见小孩确实获得了优先逃生的权利</p>
 											
-											<span class="image featured"><img src="images/mp5.png" alt="" /></span>
+											<img src="images/mp5.png" alt="" class="a" align="center">
 											<p>对性别分类后发现，女性在Titanic中获得了优先逃生权，存活概率显著高于男性。</p>
 											
-											<span class="image featured"><img src="images/mp6.png" alt="" /></span>
+											<img src="images/mp6.png" alt="" class="a" align="center">
 											<p>从累积生存概率曲线可见，到13岁左右的男女生存概率几乎没有差别，从此往后，女性生存概率缓慢上升
 												至平稳在75%左右。男性生存概率在13到20岁的区间里急速下降，至30岁以后稳定在20%左右。</p>
 											<p>下面的图展示了死亡人数（红色）和存活人数（绿色）的分年龄折线图。
@@ -134,16 +134,16 @@
 												说明年龄区间人数很多。再结合男女人数的占比，一定程度上解释了上面一张图（累积分布图）
 												的男性累计死亡率在10到20之间急速升高。</p>
 											
-											<span class="image featured"><img src="images/mp7.png" alt="" /></span>
-											<span class="image featured"><img src="images/mp8.png" alt="" /></span>
+											<img src="images/mp7.png" alt="" class="a" align="center">
+											<img src="images/mp8.png" alt="" class="a" align="center">
 											<p>家庭FamilySize定义为乘客个人、乘客的sibling、parch三者之和。在FamilySize为2，3，4时，
 												乘客的存活概率是显著高于家庭人数为其他的乘客的存活概率的。</p>
 											
-											<span class="image featured"><img src="images/mp9.png" alt="" /></span>
+											<img src="images/mp9.png" alt="" class="a" align="center">
 											<p>从上面的折线图描述了不同船票价格的生存死亡数量。当船费小于50，存活人数小于死亡人数，
 												而当船费大于50，存活人数大部分情况下高于死亡人数。</p>
 											
-											<span class="image featured"><img src="images/mp10.png" alt="" /></span>
+											<img src="images/mp10.png" alt="" class="a" align="center">
 											<p>上面的箱线图展示了船舱等级和票价的关系。每个点横轴对应了船费。除少数离群点外，
 												一等舱的船票价格一般是高于二等和三等舱的。</p>
 											<p>通常，船费的高低和船舱等级有关。等级越高的舱船费越高，所以这两个变量存在共线性。
@@ -158,9 +158,9 @@
 												性别系数为正，表示女性生存概率显著高于男性。船舱等级系数为负，表示船舱等级约高，
 												生存概率越大。年龄和家庭成员数量越小。生存概率越大。生存概率P(x)的回归方程如下。</p>
 											
-											<span class="image featured"><img src="images/mp11.png" alt="" /></span>
+											<img src="images/mp11.png" alt="" class="a" align="center">
 											
-											<span class="image featured"><img src="images/mp12.png" alt="" /></span>
+											<img src="images/mp12.png" alt="" class="a" align="center">
 											<p>Titanic的故事到此结束。我们从乘客从港口出发开始讲起，围绕影响乘客生存概率，
 												从定性到定量，探讨了对乘客生存概率由显著影响的因素，
 												最终得到了乘客生存情况的可视化和生存概率方程，解决了管理者和兴趣者的问题。</p>
